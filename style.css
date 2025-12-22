@@ -4,7 +4,7 @@ body{
     width: 100%;
     margin:0;
     padding:0;
-   
+   min-width: fit-content;
 }
 .navbar{
     position: sticky;
@@ -161,4 +161,5 @@ body{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.17);
 }
+
     
