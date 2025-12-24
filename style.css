@@ -6,6 +6,10 @@ body{
     padding:0;
    min-width: fit-content;
 }
+body::-webkit-scrollbar{
+    display:none;
+}
+
 .navbar{
     position: sticky;
     top: 0;
@@ -19,18 +23,17 @@ body{
 }
 .searchbar{
     background-color: #f0f5ff;
-   
     display:flex;
     align-items: center;
     padding: 8px 8px 8px 12px;
-     border-radius: 8px;
+    border-radius: 8px;
 
 }
 .searchbar input[type="search"]{
     border:0;
     outline:0;
     background-color: transparent;
-    font-size: 17px;
+    font-size: 1rem;
     font-family: sans-serif;
     font-weight: 200;
     padding:2px 8px;
@@ -49,7 +52,7 @@ body{
     align-items: center;
     display:flex; 
     gap:5px;
-    font-size:18px;
+    font-size: 1rem;
     font-family:sans-serif;
     color:black;
 } 
@@ -160,6 +163,20 @@ body{
 #dealsimg:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.17);
+}
+.footercontent{
+    background-color: #212121;
+    color:white;
+    display: flex;
+    font-family: 'Inter',sans-serif;
+    font-size: medium;
+    
+} 
+#footerhead{
+    color:#9d9898;
+    cursor: pointer;
+    padding-top: 4rem ;
+
 }
 
     
