@@ -164,19 +164,45 @@ body::-webkit-scrollbar{
     transition: transform 0.3s ease-in-out;
     transform: scale(1.17);
 }
+.colr{
+     background-color: #212121;
+      color:white;
+
+}
 .footercontent{
-    background-color: #212121;
-    color:white;
     display: flex;
     font-family: 'Inter',sans-serif;
     font-size: medium;
+    padding-right: 2%;
     
 } 
 #footerhead{
     color:#9d9898;
     cursor: pointer;
     padding-top: 4rem ;
-
+}
+#number{
+    color:#2874f0;
+}
+.lower{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+  
+    
 }
 
+#footerpart{
+    align-items: center;
+  
+}
+
+.low {
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap:.8rem;
+}
     
