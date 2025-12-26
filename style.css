@@ -135,6 +135,7 @@ body::-webkit-scrollbar{
     /* gap:20px; */
     padding:12px 19px;
 }
+
 .elements{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -174,6 +175,7 @@ body::-webkit-scrollbar{
     font-family: 'Inter',sans-serif;
     font-size: medium;
     padding-right: 2%;
+    /* font-weight: 550; */
     
 } 
 #footerhead{
@@ -181,6 +183,16 @@ body::-webkit-scrollbar{
     cursor: pointer;
     padding-top: 4rem ;
 }
+.footerlist{
+    color:white;
+    text-decoration: none;
+}
+.footerlist:hover{
+    text-decoration: underline;
+    color:white;
+
+}
+
 #number{
     color:#2874f0;
 }
@@ -193,6 +205,7 @@ body::-webkit-scrollbar{
   
     
 }
+
 
 #footerpart{
     align-items: center;
