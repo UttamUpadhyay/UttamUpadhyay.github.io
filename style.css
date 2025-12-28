@@ -151,9 +151,10 @@ body::-webkit-scrollbar{
 .elements img{
     width:490px;
     height: 352px;
+   
 }
 .footer{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.404);
     margin:9px 14px; 
     font-size: 12px;
     margin-top: 4px; 
@@ -218,4 +219,4 @@ body::-webkit-scrollbar{
     margin-right: 3rem;
     gap:.8rem;
 }
-    
+
