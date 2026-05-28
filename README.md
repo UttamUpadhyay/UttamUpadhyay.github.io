@@ -1,4 +1,4 @@
-# UttamUpadhyay.github.io
+
 # Flipkart Home Page Clone 🛒
 
 A static web clone of the Flipkart e-commerce homepage, built from scratch using pure HTML and CSS. 
